@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to right, red, yellow);
+  color: lime;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+}
+
+button {
+  font-size: 2em;
+  padding: 20px;
+  background-color: black;
+  color: white (255, 255, 255);
+  border: 5px dashed red;
+  cursor: pointer;
+}
+
+button:hover {
+  animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-4px); }
+  100% { transform: translateX(0); }
+}
